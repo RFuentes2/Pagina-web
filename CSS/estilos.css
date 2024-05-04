@@ -193,3 +193,33 @@ overflow: hidden;
     width: 100%;
     display: block;
 }
+
+/* price */
+.price{
+    text-align: center;
+}
+.price_table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price_element{
+    background-color: #e5e5f7;
+    text-align: center;
+    border-radius: 12px;
+    width: 330px;
+    padding: 40px;
+    --color-plan: #696871;
+    --color-price: #1D293F;
+    --bg-cta: #fff;
+    --color-cta: #5454D4;
+    --color-items: #696871;
+
+}
+
+
+
