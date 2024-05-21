@@ -270,6 +270,7 @@ overflow: hidden;
 
 .testimony{
     background-color: #e5e5f7;
+    padding: 2em 0;
 }
 
 .testimony_container{
@@ -277,11 +278,13 @@ overflow: hidden;
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .testimony_body{
-    display: grid;
-    grid-template-columns: 1fr max-content;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 2em;
@@ -307,6 +310,7 @@ overflow: hidden;
 
 .testimony_texts{
     max-width: 700px;
+    flex: 1;
 
 }
 
