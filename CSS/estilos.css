@@ -391,3 +391,10 @@ overflow: hidden;
 .questions_img{
     display: block;
 }
+
+.questions_copy{ 
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
